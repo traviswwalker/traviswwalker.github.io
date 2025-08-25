@@ -7,7 +7,7 @@ if (document.getElementById) {
 if (document.getElementById) {
  document.write('<style type="text/css">.texter2 {display:block; border-left:white 20px solid; color:#404040; font-family:verdana,arial,helvetica,sans-serif; font-size:9pt} @media print {.texter {display:block;}}</style>') }
 
- var divNum = new Array("a1","a2","a3","a4","a5","a6","a7","a8");  // at the left you should add a1, a2 etc. for each header you wish to include
+ var divNum = new Array("a01","a02","a03","a04","a05","a06","a07","a08","a09","a10","a11","a12","a13");  // at the left you should add a1, a2 etc. for each header you wish to include
                                           // so if you want 4 headers you should add a1, a2, a3, a4 in the format shown
                                           // enclosed in double quotes
 
