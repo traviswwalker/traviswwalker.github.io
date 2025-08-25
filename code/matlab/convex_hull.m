@@ -71,4 +71,5 @@ Ll(1,:) = []; Ll(end,:) = [];
 
 % 13. Append $\mathcal{L}_{lower}$ to $\mathcal{L}_{upper}$, and call the
 % resulting list $\mathcal{L}$.
+
 L = [Lu;Ll];
