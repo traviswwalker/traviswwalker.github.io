@@ -1,0 +1,26 @@
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):after {
+    content: " \25B4\25BE"
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+  xmlns="http://www.w3.org/1999/xhtml"
+}
+th.name {
+  width: 30%;
+}
+th.description {
+  width: 60%;
+}
+th.date {
+  width: 10%
+}
